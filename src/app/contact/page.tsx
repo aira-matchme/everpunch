@@ -48,19 +48,7 @@ export default function ContactPage() {
             </div>
 
             {/* Trade enquiries */}
-            <div className="bg-[#1A0536] rounded-xl p-5 text-white">
-              <h3 className="font-bold mb-2">Trade & Wholesale Enquiries</h3>
-              <p className="text-sm text-gray-400 leading-relaxed mb-4">
-                Are you a restaurant, bar, hotel or catering business? We offer significant discounts
-                for trade customers and can set up a credit account.
-              </p>
-              <a
-                href="/trade"
-                className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-bold px-5 py-2.5 rounded-lg transition-colors"
-              >
-                Apply for Trade Account
-              </a>
-            </div>
+          
           </div>
 
           {/* Contact form */}
@@ -112,7 +100,6 @@ export default function ContactPage() {
                       <option>Order Query</option>
                       <option>Delivery Issue</option>
                       <option>Returns / Refund</option>
-                      <option>Trade / Wholesale Enquiry</option>
                       <option>Product Information</option>
                       <option>Other</option>
                     </select>

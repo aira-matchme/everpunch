@@ -39,7 +39,6 @@ const footerSections = [
     links: [
       { label: "About Us", href: "/about" },
       { label: "Contact Us", href: "/contact" },
-      { label: "Trade Account", href: "/trade" },
       { label: "Delivery Info", href: "/delivery" },
       { label: "Returns Policy", href: "/returns" },
       { label: "Privacy Policy", href: "/privacy" },
